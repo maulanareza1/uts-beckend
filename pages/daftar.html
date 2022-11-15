@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Daftar</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="/">Home</a>
+        <a href="/about">About</a>
+        <!-- <a href="#contact">Contact</a> -->
+        <div class="search-container1">
+            <form action="/" method="GET">
+                <input type="text" name="keyword" placeholder="Search..">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+            <a href="/login">Login</a>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Daftar</h2>
+        <div class="login">
+            <form action="/daftar" method="POST">
+                <table>
+                    <tr>
+                        <td><label for="username">Username</label></td>
+                        <td>:</td>
+                        <td><input class="input" type="text" name="username" placeholder="reza" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password</label></td>
+                        <td>:</td>
+                        <td><input class="input" type="password" name="password" placeholder="1121101993" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td>:</td>
+                        <td><input class="input" type="email" name="email" placeholder="reza@gmail.com" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="telepon">Telepon</label></td>
+                        <td>:</td>
+                        <td><input class="input" type="number" name="telepon" placeholder="+6200000000" /></td>
+                    </tr>
+                </table>
+                <button class="input2" type="submit" value="daftar">Daftar</button>
+            </form>
+        </div>
+        <p>Sudah punya akun ? <a href="/login">Login</p></a>
+    </div>
+</body>
+
+</html>

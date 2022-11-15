@@ -1,0 +1,13 @@
+{
+  "name": "1121101993_reza-maulana_sp3.2_uts-beckend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "render.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node render.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
